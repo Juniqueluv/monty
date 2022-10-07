@@ -116,7 +116,7 @@ int run_monty(FILE *script_fd)
 	if (init_stack(&stack) == EXIT_FAILURE)
 		return (EXIT_FAILURE);
 
-	while (getline(&line, &len, script_fd) != -1)
+	while (getline (&line, &len, script_fd) != -1)
 	{
 		line_num++;
 		op_toks = strtow(line, DELIMS);
@@ -139,7 +139,7 @@ int run_monty(FILE *script_fd)
 			exit_status = unknown_op_error(op_toks[0], line_num);
 			free_tokens();
 			break;
-		}
+ 		}
 		prev_tok_len = token_arr_len();
 		op_func(&stack, line_num);
 		if (token_arr_len() != prev_tok_len)
