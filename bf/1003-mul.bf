@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BrainF*ck Script to multiply two numbers
 # Result has to be less than 10 (a single digit number)
 # given example 42: 4 will be in block #1 2 will be in block #2
@@ -10,7 +11,7 @@
 # loop while block 2 != 0 adding the value of block 1 to block 0 every time
 
 # BLOCK 0	BLOCK 1		BLOCK 2		BLOCK 3 	BLOCK4
-# 0		4		1		0 		
+# 0		4		1		0
 
 >,------------------------------------------------ # read into #1
 >,------------------------------------------------ # read into #2
@@ -18,3 +19,11 @@
 <-] MOVE BLOCK TO BLOCK 2 AND DECREASE (DONE WITH ONE ITERATION)
 # MOVE TO BLOCK 0 AND INCREASE BY ASCII '0' (DEC 48)
 <<++++++++++++++++++++++++++++++++++++++++++++++++.
+=======
+,>++++++++[<------>-](read1),>++++++++[<------>-](read2)<<[->(startclone)[>+>+<<-]>>[-<<+>>](endclone)<[->>+<<]<<(add)]>>>>>++++++++++(start)<
+[->-[>+>>]>[+[-<+>]>+>>]<<<<<]
+>>>>++++++++[<++++++>-]<.#
+<[->>+<<]#
+>>>++++++++[<++++++>-]<.#
+>++++++++++.
+>>>>>>> 76ca3de05a5e814d0653ee6cae33bb31ccfa111b
